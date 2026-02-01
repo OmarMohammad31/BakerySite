@@ -114,7 +114,9 @@ h1 {
 .gallery {
     width: 90%;
     text-align: center;
-    margin: 100px auto auto;
+    margin: auto;
+    position: relative;
+    top: 100px;
 }
 
 .gallery-cap {
