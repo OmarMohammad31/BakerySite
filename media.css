@@ -1,0 +1,27 @@
+@media screen and (max-width: 630px) {
+    nav ul{
+        display: none;
+    }
+    .meal {
+        width: 100%;
+    }
+    .nav-logo {
+        width: 30%;
+    }
+    .about-img, .about-cap {
+        width: 100%;
+    }
+    .location-cap, .location-img {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .gallery-meals {
+        padding: 40px;
+    }
+    .meal {
+        width: 50%;
+        padding: 10px;
+    }
+}

@@ -96,7 +96,7 @@ h1 {
 }
 .location-cap {
     padding-top: 50px;
-  float: left;
+    float: left;
     width: 40%;
     text-align: center;
 }
@@ -116,9 +116,7 @@ h1 {
     text-align: center;
     margin: 100px auto auto;
 }
-.gallery-meals {
-    padding: 100px;
-}
+
 .gallery-cap {
     text-align: center;
 }
@@ -130,7 +128,6 @@ h1 {
 .meal {
     float: left;
     width: 33%;
-    /*margin: 0 20px;*/
     padding: 20px;
     box-sizing: border-box;
 }
