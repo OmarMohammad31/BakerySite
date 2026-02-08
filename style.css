@@ -1,10 +1,10 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 .nav-logo {
     width: 13%;
     height: 50px;
-    float: left;
 }
 .nav-logo img{
     width: 100%;
@@ -15,9 +15,10 @@
     padding: 20px;
     width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .home ul li {
-    float: left;
     margin: 0 20px;
 }
 .home ul li a {
@@ -25,11 +26,8 @@
     color: white;
 }
 .home ul {
-    float: right;
+    display: flex;
     list-style: none;
-}
-.clearfix {
-    clear: both;
 }
 .home {
     color: white;
@@ -38,7 +36,6 @@
     background-size: 100% 100%;
     background-position: center center;
     height: 100vh;
-    box-sizing: border-box;
 }
 .home-cap {
     margin: 100px 0;
@@ -65,12 +62,14 @@ h1 {
 .about {
     width: 90%;
     margin: 100px auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .about-cap {
     padding-top: 50px;
     width: 40%;
     text-align: center;
-    float: right;
 }
 .about-cap p {
     margin: 30px 0;
@@ -83,7 +82,6 @@ h1 {
 }
 .about-img {
 
-    float: left;
     width: 50%;
     height: 500px;
 }
@@ -95,15 +93,17 @@ h1 {
 .location {
     margin: 100px auto auto;
     width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .location-cap {
+    order: -1;
     padding-top: 50px;
-    float: left;
     width: 40%;
     text-align: center;
 }
 .location-img {
-    float: right;
     width: 50%;
 }
 .location-img img {
@@ -130,8 +130,10 @@ h1 {
     height: 100%;
 }
 .meal {
-    float: left;
     width: 33%;
     padding: 20px;
-    box-sizing: border-box;
+}
+.gallery-meals {
+    display: flex;
+    flex-wrap: wrap;
 }
