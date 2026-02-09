@@ -18,6 +18,11 @@
         order: -1;
     }
 
+    .home nav {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .gallery-meals {
